@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: black;
+    max-height: 150px;
+    min-height: 100px;
+    color: white;
+    text-align: center;
+    border-bottom: 1.5px white solid;
+}
+header h1 {
+    padding: 25px;
+}
+header img {
+    position: absolute;
+    left: 15%;
+    top: 5%
+}
+#instagram {
+    position: absolute;
+    left: 78%;
+    top: 4%;
+}
+#linkedin {
+    position: absolute;
+    left: 84%;
+    top: 4%;
+}
+#github {
+    position: absolute;
+    left: 90%;
+    top: 4%;
+}
+main {
+    height: 95vh;
+    height: 100vh;
+}
+section {
+    max-width: 800px;
+    min-width: 280px;
+    margin: auto;
+    max-height: 400px;
+    color: white;
+    background-color: black;
+}
+section h2 { 
+    padding: 30px 30px 0px 30px;
+    text-indent: 70px;
+    font-size: 50px;
+}
+section p {
+    padding: 20px;
+    text-indent: 20px;
+}
+section#projetos {
+    color: white ;
+    text-align: center;
+    height: 400px;
+}
+section#projetos h2 {
+    padding: 30px 30px 0px 30px;
+    text-indent: 70px;
+    font-size: 50px;
+}
+article {
+    display: inline-table;
+    width: 180px;
+    height: 160px;
+    color: white;
+    text-align: justify;
+    margin: 10px 25px ;
+}
+article h3 {
+    text-align: center;
+}
